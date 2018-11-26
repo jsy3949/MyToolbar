@@ -15,14 +15,14 @@
             android:id="@+id/map_btn1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="구글 지도 보기#1"
+            android:text="메이크업#1"
             android:layout_weight="1"/>
 
         <Button
             android:id="@+id/map_btn2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="구글 지도 보기#2"
+            android:text="메이크업#2"
             android:layout_weight="1"
             />
 

@@ -24,6 +24,16 @@ public class SecondFragment extends Fragment {
             }
         });
 
+        final Button btnFragment2 = (Button) view.findViewById(R.id.move_third_btn);
+        btnFragment2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FragmentTransaction fr = getFragmentManager().beginTransaction();
+                fr.replace(R.id.main_frameLayout , new ThirdFragment());
+                fr.commit();
+            }
+        });
+
         return view;
     }
 }
